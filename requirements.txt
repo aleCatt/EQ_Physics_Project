@@ -1,3 +1,4 @@
+# Requirements only for the .py files
 numpy
 pandas
 tqdm
