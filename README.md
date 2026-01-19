@@ -1,14 +1,23 @@
-# EQ_Physics_Project
-Final project for the "Earthquake Physics and Machine Learning" course.
-Made by *Alessandro Cattaneo & Alessandra Melchionna*.
+# Earthquake Physics & Machine Learning Project
+
+**Authors:** Alessandro Cattaneo & Alessandra Melchionna
+
+A Deep Learning project focused on seismic detection using the INGV Instance Dataset. This repository contains the preprocessing logic, the U-Net training pipeline, and a live inference agent.
+
+## 📁 Files
+*   `code/EQ_Physics_Project.ipynb`: Main notebook for Training & Architecture.
+*   `code/live_seismic_agent.py`: The AI Agent for real-time inference.
+*   `code/preprocess_data.py`: Data cleaning and generation scripts.
+*   `code/requirements.txt`: Python dependencies.
+*   `CattaneoMelchionnaProjectProposal.docx` & `DEEP_MelchionnaCattaneo.pdf`: Project proposal.
+*   `report.pdf` & `Presentation.pdf`: Final documentation.
+
+## 🛠 Instructions
+
+1.  **Download Data:** Get the [INGV Instance Dataset (Sample v3)](https://github.com/INGV/instance).
+2.  **Preprocess:** Run `preprocess_data.py` to create `seismic_dataset_balanced.npz`.
+3.  **Train:** Run the `EQ_Physics_Project.ipynb` notebook to generate `best_unet_model.pth`.
+4.  **Run Agent:** Execute `eismic_agent.py` to get a real-time report of an area.
 
 ---
-
-Contents & usage:
-- Download the data from the INGV Instance Dataset (Sample dataset version 3). https://github.com/INGV/instance
-- Run the "preprocess_data.py" script obtaining "seismic_dataset_balanced.npz".
-- Run the training pipeline present in "EQ_Physics_Project.ipynb" and save "best_unet_model.pth".
-- Run the "seismic_agent.py" script in order to see a real time report of a desired area.
-
-Disclaimer:
-  This software is for research and educational purposes only. It should not be used as a primary warning system for safety-critical seismic events. Always refer to official sources (INGV, USGS) for earthquake information.
+**Disclaimer:** This software is for research/educational purposes only. Do not use for safety-critical applications. Always refer to official sources (INGV, USGS).
