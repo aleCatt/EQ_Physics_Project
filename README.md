@@ -2,6 +2,8 @@
 Final project for the "Earthquake Physics and Machine Learning" course.
 Made by *Alessandro Cattaneo & Alessandra Melchionna*.
 
+---
+
 Contents & usage:
 - Download the data from the INGV Instance Dataset (Sample dataset version 3). https://github.com/INGV/instance
 - Run the "preprocess_data.py" script obtaining "seismic_dataset_balanced.npz".
