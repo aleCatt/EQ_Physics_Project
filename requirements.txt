@@ -2,3 +2,5 @@ numpy
 pandas
 tqdm
 h5py
+obspy
+pytorch
