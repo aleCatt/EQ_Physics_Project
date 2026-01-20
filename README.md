@@ -20,4 +20,4 @@ A Deep Learning project focused on seismic detection using the INGV Instance Dat
 4.  **Run Agent:** Execute `seismic_agent.py` to get a real-time report of an area.
 
 ---
-**Disclaimer:** This software is for research/educational purposes only. Do not use for safety-critical applications. Always refer to official sources (INGV, USGS).
+**Disclaimer:** This software is for research/educational purposes only. Do not use for safety-critical applications.
