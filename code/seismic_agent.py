@@ -119,9 +119,6 @@ def preprocess_stream(st):
         n_samples = min(len(tr.data), WINDOW_LEN)
         data_array[i, :n_samples] = tr.data[:n_samples]
         
-    # Detrend (remove mean)
-    data_array -= np.mean(data_array, axis=1, keepdims=True)
-    
     # Normalize
     max_val = np.max(np.abs(data_array))
     if max_val > 0:
