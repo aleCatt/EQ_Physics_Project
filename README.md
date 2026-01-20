@@ -10,7 +10,7 @@ A Deep Learning project focused on seismic detection using the INGV Instance Dat
 *   `code/preprocess_data.py`: Data cleaning and generation scripts.
 *   `code/requirements.txt`: Python dependencies.
 *   `CattaneoMelchionnaProjectProposal.docx` & `DEEP_MelchionnaCattaneo.pdf`: Project proposal.
-*   `report.pdf` & `Presentation.pdf`: Final documentation.
+*   `Report.pdf` & `Final_Presentation.pptx`: Final documentation.
 
 ## 🛠 Instructions
 
