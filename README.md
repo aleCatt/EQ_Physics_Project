@@ -17,7 +17,7 @@ A Deep Learning project focused on seismic detection using the INGV Instance Dat
 1.  **Download Data:** Get the [INGV Instance Dataset (Sample v3)](https://github.com/INGV/instance).
 2.  **Preprocess:** Run `preprocess_data.py` to create `seismic_dataset_balanced.npz`.
 3.  **Train:** Run the `EQ_Physics_Project.ipynb` notebook to generate `best_unet_model.pth`.
-4.  **Run Agent:** Execute `eismic_agent.py` to get a real-time report of an area.
+4.  **Run Agent:** Execute `seismic_agent.py` to get a real-time report of an area.
 
 ---
 **Disclaimer:** This software is for research/educational purposes only. Do not use for safety-critical applications. Always refer to official sources (INGV, USGS).
