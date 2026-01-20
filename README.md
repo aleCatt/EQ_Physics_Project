@@ -2,7 +2,7 @@
 
 **Authors:** Alessandro Cattaneo & Alessandra Melchionna
 
-A Deep Learning project focused on seismic detection using the INGV Instance Dataset. This repository contains the preprocessing logic, the U-Net training pipeline, and a live inference agent.
+A Deep Learning project focused on seismic events using the INGV Instance Dataset. This repository contains the preprocessing logic, the U-Net training pipeline, and a live inference agent.
 
 ## 📁 Files
 *   `code/EQ_Physics_Project.ipynb`: Main notebook for Training & Architecture.
