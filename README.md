@@ -2,6 +2,8 @@
 
 **Authors:** Alessandro Cattaneo & Alessandra Melchionna
 
+![Model Architecture (our image)](architecture.png)
+
 A Deep Learning project focused on seismic events using the INGV Instance Dataset. This repository contains the preprocessing logic, the U-Net training pipeline, and a live inference agent.
 
 ## 📁 Files
